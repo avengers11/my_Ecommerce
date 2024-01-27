@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000000;
+  background-color: #f7f7f7;
+}
+
+/*START HEADER */
+header .container {
+  width: 100%;
+}
+header .container .wrap {
+  width: 100%;
+}
+header .container .wrap .main_header {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .wrap .main_header .logo img {
+  width: 100px;
+}
+header .container .wrap .main_header .search {
+  border: 1px solid rgba(221, 221, 221, 0.8666666667);
+  padding: 10px;
+  height: 30px;
+  border-radius: 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .wrap .main_header .search i {
+  font-size: 12px;
+}
+header .container .wrap .main_header .search input {
+  position: relative;
+  border: none;
+  outline: none;
+  background: none;
+}
+header .container .wrap .main_header .search:focus-within {
+  border: 1px solid #ffa500;
+}
+header .container .wrap .main_header .icon {
+  padding: 10px;
+}
+header .container .wrap .main_header .icon a {
+  padding-right: 10px;
+  color: #000000;
+}
+header .container .wrap .main_header .icon a i {
+  font-size: 16px;
+}
+header .container .wrap .main_header .icon a:hover {
+  color: #ffa500;
+}
+
+/*END HEDER */
+/* START Nav */
+nav .container .wrap .main_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .container .wrap .main_menu .menu_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .container .wrap .main_menu .menu_btn .dropdown {
+  border: none;
+  background: #ddd;
+}
+nav .container .wrap .main_menu .menu_btn .dropdown button.btn.btn-secondary.dropdown-toggle {
+  border: none;
+  background: #ddd;
+  color: #000000;
+}
+nav .container .wrap .main_menu .menu_btn .dropdown ul.dropdown-menu.dropdown-menu-dark {
+  background: #ddd;
+  color: #000000;
+}
+nav .container .wrap .main_menu .menu_btn .menu_ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .container .wrap .main_menu .menu_btn .menu_ul li {
+  list-style: none;
+  padding: 10px;
+}
+nav .container .wrap .main_menu .menu_btn .menu_ul li a {
+  text-decoration: none;
+}
+nav .container .wrap .main_menu .icon_menu {
+  padding-right: 10px;
+}/*# sourceMappingURL=style.css.map */
